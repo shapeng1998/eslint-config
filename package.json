@@ -10,9 +10,6 @@
     "lint:fix": "eslint . --fix",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
-  "dependencies": {
-    "eslint-plugin-jsonc": "^2.2.1"
-  },
   "devDependencies": {
     "@shapeng1998/eslint-config": "workspace:*",
     "@types/react": "^18.0.9",
