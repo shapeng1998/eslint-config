@@ -9,7 +9,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:jsonc/recommended-with-jsonc'
   ],
-  plugins: ['unicorn'],
+  plugins: ['unicorn', 'html'],
   ignorePatterns: [
     '*.min.*',
     'CHANGELOG.md',
