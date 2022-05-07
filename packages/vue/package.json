@@ -1,0 +1,26 @@
+{
+  "name": "@shapeng1998/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "Personal ESLint config for Vue.js",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "vue",
+    "eslint-config"
+  ],
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "@shapeng1998/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^8.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

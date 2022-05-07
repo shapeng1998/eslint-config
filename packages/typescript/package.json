@@ -1,0 +1,28 @@
+{
+  "name": "@shapeng1998/eslint-config-ts",
+  "version": "0.1.0",
+  "description": "Personal ESLint config for TypeScript",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "eslint-config"
+  ],
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@shapeng1998/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
