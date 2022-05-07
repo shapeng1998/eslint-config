@@ -10,6 +10,6 @@ function increment () {
 
 <template>
   <button @click="increment">
-    {{ count }} <!-- no .value needed -->
+    {{ count }}
   </button>
 </template>

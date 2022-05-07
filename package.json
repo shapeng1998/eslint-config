@@ -1,18 +1,21 @@
 {
   "name": "eslint-config-monorepo",
   "version": "0.2.0",
-  "packageManager": "pnpm@7.0.0",
   "private": true,
+  "packageManager": "pnpm@7.0.0",
+  "license": "MIT",
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
-  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
-  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-jsonc": "^2.2.1"
+  },
   "devDependencies": {
     "@shapeng1998/eslint-config": "workspace:*",
-    "@types/react": "^18.0.8",
+    "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",

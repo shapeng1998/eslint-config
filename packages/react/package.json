@@ -2,25 +2,25 @@
   "name": "@shapeng1998/eslint-config-react",
   "version": "0.2.0",
   "description": "Personal ESLint config for React",
-  "main": "index.js",
   "keywords": [
     "eslint",
     "react",
     "eslint-config"
   ],
-  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
   "license": "MIT",
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
+  "main": "index.cjs",
   "peerDependencies": {
     "eslint": ">=7.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.14.0"
   },
   "dependencies": {
     "@shapeng1998/eslint-config-ts": "workspace:*",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   },
   "publishConfig": {
     "access": "public"

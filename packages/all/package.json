@@ -2,7 +2,6 @@
   "name": "@shapeng1998/eslint-config",
   "version": "0.2.0",
   "description": "Personal ESLint config",
-  "main": "index.js",
   "keywords": [
     "eslint",
     "react",
@@ -10,17 +9,18 @@
     "typescript",
     "eslint-config"
   ],
-  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
   "license": "MIT",
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
+  "main": "index.cjs",
   "peerDependencies": {
     "eslint": ">=7.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.14.0"
   },
   "dependencies": {
     "@shapeng1998/eslint-config-react": "workspace:*",
     "@shapeng1998/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   },
   "publishConfig": {
     "access": "public"
