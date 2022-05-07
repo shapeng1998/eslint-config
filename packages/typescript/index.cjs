@@ -10,5 +10,9 @@ module.exports = {
     '@shapeng1998/eslint-config-base',
     'plugin:@typescript-eslint/recommended'
   ],
-  overrides
+  overrides,
+  rules: {
+    indent: 'off',
+    '@typescript-eslint/indent': ['error', 2]
+  }
 }
