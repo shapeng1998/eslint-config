@@ -1,0 +1,27 @@
+{
+  "name": "@shapeng1998/eslint-config-base",
+  "version": "0.1.0",
+  "description": "Personal ESLint config for Vanilla JavaScript",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
