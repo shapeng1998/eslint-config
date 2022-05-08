@@ -90,6 +90,6 @@ module.exports = {
   rules: {
     'unicorn/no-null': 'off',
     'unicorn/prefer-module': 'off',
-    'prevent-abbreviations': 'off'
+    'unicorn/prevent-abbreviations': 'off'
   }
 }
