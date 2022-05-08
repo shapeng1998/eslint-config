@@ -8,6 +8,7 @@ module.exports = {
   ],
   extends: [
     '@shapeng1998/eslint-config-base',
+    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended'
   ],
   overrides,
