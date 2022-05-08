@@ -25,7 +25,8 @@ module.exports = {
     '__snapshots__',
     '!.github',
     '!.vitepress',
-    '!.vscode'
+    '!.vscode',
+    'vite-env.d.ts'
   ],
   overrides: [
     {
