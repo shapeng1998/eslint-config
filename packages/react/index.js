@@ -13,5 +13,9 @@ module.exports = {
     react: {
       version: '18.0.0'
     }
+  },
+  rules: {
+    // Use tsx instead of jsx
+    'react/prop-types': 'off'
   }
 }
