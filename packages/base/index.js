@@ -79,6 +79,16 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off'
+      }
     }
-  ]
+  ],
+  rules: {
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-module': 'off'
+  }
 }

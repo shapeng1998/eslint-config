@@ -8,7 +8,7 @@
   ],
   "license": "MIT",
   "author": "Peng Sha <jack@shapeng1998.com> (https://github.com/shapeng1998/)",
-  "main": "index.cjs",
+  "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
