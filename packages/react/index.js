@@ -16,6 +16,7 @@ module.exports = {
   },
   rules: {
     // Use tsx instead of jsx
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'jsx-a11y/anchor-is-valid': 'off'
   }
 }
