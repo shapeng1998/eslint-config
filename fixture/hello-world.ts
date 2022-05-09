@@ -1,4 +1,6 @@
-const foo = 'foo'
+import type { Foo } from './type'
+
+const foo: Foo = 'foo'
 const bar = 'bar'
 
 function helloWorld() {
