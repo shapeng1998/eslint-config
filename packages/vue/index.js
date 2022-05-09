@@ -8,8 +8,5 @@ module.exports = {
       }
     }
   ],
-  extends: [
-    'plugin:vue/vue3-recommended',
-    '@shapeng1998/eslint-config-ts'
-  ]
+  extends: ['plugin:vue/vue3-recommended', '@shapeng1998/eslint-config-ts']
 }

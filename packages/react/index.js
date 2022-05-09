@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'jsx-a11y'
-  ],
+  plugins: ['jsx-a11y'],
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',

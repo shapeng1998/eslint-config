@@ -17,10 +17,13 @@
   },
   "dependencies": {
     "@shapeng1998/eslint-config-react": "workspace:*",
-    "@shapeng1998/eslint-config-vue": "workspace:*"
+    "@shapeng1998/eslint-config-vue": "workspace:*",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
   },
   "publishConfig": {
     "access": "public"

@@ -2,9 +2,7 @@ const { overrides } = require('@shapeng1998/eslint-config-base')
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint'
-  ],
+  plugins: ['@typescript-eslint'],
   extends: [
     '@shapeng1998/eslint-config-base',
     'plugin:import/typescript',
