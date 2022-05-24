@@ -13,7 +13,7 @@
   "devDependencies": {
     "@shapeng1998/eslint-config": "workspace:*",
     "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
+    "@types/react-dom": "^18.0.5",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2",
