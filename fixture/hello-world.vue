@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const count = ref<number>(0)
+const count = ref(0)
 
-function increment(): void {
+function increment() {
   count.value++
 }
 </script>
