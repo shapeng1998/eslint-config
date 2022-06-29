@@ -1,3 +1,4 @@
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   plugins: ['import', 'react', 'jsx-a11y'],
   extends: [

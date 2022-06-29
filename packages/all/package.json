@@ -1,6 +1,6 @@
 {
   "name": "@shapeng1998/eslint-config",
-  "version": "0.5.4",
+  "version": "0.5.8",
   "description": "Personal ESLint config",
   "keywords": [
     "eslint",
@@ -19,13 +19,14 @@
     "@shapeng1998/eslint-config-react": "workspace:*",
     "@shapeng1998/eslint-config-vue": "workspace:*",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-plugin-prettier": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
     "prettier": "^2.7.1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
