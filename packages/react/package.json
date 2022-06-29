@@ -1,6 +1,6 @@
 {
   "name": "@shapeng1998/eslint-config-react",
-  "version": "0.5.4",
+  "version": "0.5.8",
   "description": "Personal ESLint config for React",
   "keywords": [
     "eslint",
@@ -26,6 +26,7 @@
     "eslint": "^8.18.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
