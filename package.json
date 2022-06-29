@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp package.json packages/*/package.json && pnpm -r publish --access public"
+    "release": "bumpp package.json packages/*/package.json -y && pnpm -r publish"
   },
   "devDependencies": {
     "@shapeng1998/eslint-config": "workspace:*",
