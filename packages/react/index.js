@@ -4,23 +4,23 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    '@shapeng1998/eslint-config-ts'
+    '@shapeng1998/eslint-config-ts',
   ],
   settings: {
     react: {
-      version: '18.0.0'
+      version: '18.0.0',
     },
     'import/parsers': {
-      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
+      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
     'import/resolver': {
       [require.resolve('eslint-import-resolver-node')]: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
       [require.resolve('eslint-import-resolver-typescript')]: {
-        alwaysTryTypes: true
-      }
-    }
+        alwaysTryTypes: true,
+      },
+    },
   },
   rules: {
     'import/no-anonymous-default-export': 'warn',
@@ -30,13 +30,13 @@ module.exports = {
       'warn',
       {
         elements: ['img'],
-        img: ['Image']
-      }
+        img: ['Image'],
+      },
     ],
     'jsx-a11y/aria-props': 'warn',
     'jsx-a11y/aria-proptypes': 'warn',
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
-    'jsx-a11y/role-supports-aria-props': 'warn'
-  }
+    'jsx-a11y/role-supports-aria-props': 'warn',
+  },
 }

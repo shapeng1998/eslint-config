@@ -11,7 +11,7 @@ export default function MyApp() {
     <div>
       <h1>Welcome to my app</h1>
       {count}
-      <MyButton onClick={() => setCount(c => c + 1)} />
+      <MyButton onClick={() => setCount((c) => c + 1)} />
     </div>
   )
 }

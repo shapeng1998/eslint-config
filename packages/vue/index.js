@@ -5,9 +5,9 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: '@typescript-eslint/parser'
-      }
-    }
+        parser: '@typescript-eslint/parser',
+      },
+    },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@shapeng1998/eslint-config-ts']
+  extends: ['plugin:vue/vue3-recommended', '@shapeng1998/eslint-config-ts'],
 }

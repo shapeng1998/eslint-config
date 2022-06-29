@@ -3,7 +3,7 @@ module.exports = {
   env: {
     es2022: true,
     browser: true,
-    node: true
+    node: true,
   },
   extends: ['standard'],
   ignorePatterns: [
@@ -14,6 +14,6 @@ module.exports = {
     'pnpm-lock.yaml',
     'pnpm-workspace.yaml',
     'yarn.lock',
-    '__snapshots__'
-  ]
+    '__snapshots__',
+  ],
 }
