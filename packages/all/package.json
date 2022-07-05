@@ -19,10 +19,10 @@
     "@shapeng1998/eslint-config-react": "workspace:*",
     "@shapeng1998/eslint-config-vue": "workspace:*",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.1.0"
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "prettier": "^2.7.1"
   },
   "publishConfig": {
