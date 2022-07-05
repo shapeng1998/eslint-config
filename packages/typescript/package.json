@@ -1,6 +1,6 @@
 {
   "name": "@shapeng1998/eslint-config-ts",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "description": "Personal ESLint config for TypeScript",
   "keywords": [
     "eslint",
