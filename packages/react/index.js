@@ -1,5 +1,7 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+// @ts-check
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
   plugins: ['import', 'react', 'jsx-a11y'],
   extends: [
     'plugin:react/recommended',
@@ -39,4 +41,4 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
   },
-}
+})

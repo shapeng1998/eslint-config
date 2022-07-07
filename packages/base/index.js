@@ -1,5 +1,7 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+// @ts-check
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
   env: {
     es2022: true,
     browser: true,
@@ -16,4 +18,4 @@ module.exports = {
     'yarn.lock',
     '__snapshots__',
   ],
-}
+})

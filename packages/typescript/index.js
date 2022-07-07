@@ -1,5 +1,7 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+// @ts-check
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
   extends: [
     '@shapeng1998/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
@@ -15,4 +17,4 @@ module.exports = {
       },
     },
   ],
-}
+})

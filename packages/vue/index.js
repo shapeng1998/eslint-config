@@ -1,5 +1,7 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+// @ts-check
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
   overrides: [
     {
       files: ['*.vue'],
@@ -10,4 +12,4 @@ module.exports = {
     },
   ],
   extends: ['plugin:vue/vue3-recommended', '@shapeng1998/eslint-config-ts'],
-}
+})
