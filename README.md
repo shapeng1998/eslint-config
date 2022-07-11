@@ -51,6 +51,7 @@ Big thanks to these amazing projects:
 
 - [antfu/eslint-config](https://github.com/antfu/eslint-config)
 - [eslint-config-standard](https://github.com/standard/eslint-config-standard)
+- [eslint-define-config](https://github.com/Shinigami92/eslint-define-config)
 
 ## License
 
