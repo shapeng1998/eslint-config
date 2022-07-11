@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@shapeng1998/eslint-config-ts": "workspace:*",
+    "eslint-define-config": "^1.5.1",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^3.2.4",
     "eslint-plugin-import": "^2.26.0",

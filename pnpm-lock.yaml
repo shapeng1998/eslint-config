@@ -11,14 +11,11 @@ importers:
       '@types/react-dom': ^18.0.6
       bumpp: ^8.2.1
       eslint: ^8.19.0
-      eslint-define-config: ^1.5.1
       prettier: ^2.7.1
       react: ^18.2.0
       react-dom: ^18.2.0
       typescript: ^4.7.4
       vue: ^3.2.37
-    dependencies:
-      eslint-define-config: 1.5.1
     devDependencies:
       '@shapeng1998/eslint-config': link:packages/all
       '@types/eslint': 8.4.5
@@ -39,12 +36,14 @@ importers:
       '@shapeng1998/eslint-config-vue': workspace:*
       eslint: ^8.19.0
       eslint-config-prettier: ^8.5.0
+      eslint-define-config: ^1.5.1
       eslint-plugin-prettier: ^4.2.1
       prettier: ^2.7.1
     dependencies:
       '@shapeng1998/eslint-config-react': link:../react
       '@shapeng1998/eslint-config-vue': link:../vue
       eslint-config-prettier: 8.5.0_eslint@8.19.0
+      eslint-define-config: 1.5.1
       eslint-plugin-prettier: 4.2.1_7uxdfn2xinezdgvmbammh6ev5i
     devDependencies:
       eslint: 8.19.0
@@ -54,11 +53,13 @@ importers:
     specifiers:
       eslint: ^8.19.0
       eslint-config-standard: ^17.0.0
+      eslint-define-config: ^1.5.1
       eslint-plugin-import: ^2.26.0
       eslint-plugin-n: ^15.2.4
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint-config-standard: 17.0.0_3y77imf4oat3akor274t4exgn4
+      eslint-define-config: 1.5.1
       eslint-plugin-import: 2.26.0_eslint@8.19.0
       eslint-plugin-n: 15.2.4_eslint@8.19.0
       eslint-plugin-promise: 6.0.0_eslint@8.19.0
@@ -69,6 +70,7 @@ importers:
     specifiers:
       '@shapeng1998/eslint-config-ts': workspace:*
       eslint: ^8.19.0
+      eslint-define-config: ^1.5.1
       eslint-import-resolver-node: ^0.3.6
       eslint-import-resolver-typescript: ^3.2.4
       eslint-plugin-import: ^2.26.0
@@ -77,6 +79,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
     dependencies:
       '@shapeng1998/eslint-config-ts': link:../typescript
+      eslint-define-config: 1.5.1
       eslint-import-resolver-node: 0.3.6
       eslint-import-resolver-typescript: 3.2.4_q2xwze32dd33a2fc2qubwr4ie4
       eslint-plugin-import: 2.26.0_5bpqm2xlewxb5wzn7hu27kmwyy
@@ -92,11 +95,13 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.30.5
       '@typescript-eslint/parser': ^5.30.5
       eslint: ^8.19.0
+      eslint-define-config: ^1.5.1
       typescript: ^4.7.4
     dependencies:
       '@shapeng1998/eslint-config-base': link:../base
       '@typescript-eslint/eslint-plugin': 5.30.5_6zdoc3rn4mpiddqwhppni2mnnm
       '@typescript-eslint/parser': 5.30.5_4x5o4skxv6sl53vpwefgt23khm
+      eslint-define-config: 1.5.1
     devDependencies:
       eslint: 8.19.0
       typescript: 4.7.4
@@ -106,10 +111,12 @@ importers:
       '@shapeng1998/eslint-config-ts': workspace:*
       '@typescript-eslint/parser': ^5.30.5
       eslint: ^8.19.0
+      eslint-define-config: ^1.5.1
       eslint-plugin-vue: ^9.2.0
       typescript: ^4.7.4
     dependencies:
       '@shapeng1998/eslint-config-ts': link:../typescript
+      eslint-define-config: 1.5.1
       eslint-plugin-vue: 9.2.0_eslint@8.19.0
     devDependencies:
       '@typescript-eslint/parser': 5.30.5_4x5o4skxv6sl53vpwefgt23khm

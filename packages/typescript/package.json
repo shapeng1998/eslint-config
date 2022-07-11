@@ -16,7 +16,8 @@
   "dependencies": {
     "@shapeng1998/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
-    "@typescript-eslint/parser": "^5.30.5"
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint-define-config": "^1.5.1"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
