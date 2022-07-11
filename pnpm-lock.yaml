@@ -17,6 +17,8 @@ importers:
       react-dom: ^18.2.0
       typescript: ^4.7.4
       vue: ^3.2.37
+    dependencies:
+      eslint-define-config: 1.5.1
     devDependencies:
       '@shapeng1998/eslint-config': link:packages/all
       '@types/eslint': 8.4.5
@@ -25,7 +27,6 @@ importers:
       '@types/react-dom': 18.0.6
       bumpp: 8.2.1
       eslint: 8.19.0
-      eslint-define-config: 1.5.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -825,7 +826,7 @@ packages:
   /eslint-define-config/1.5.1:
     resolution: {integrity: sha512-6gxrmN7aKGffaO8dCtMMKyo3IxbWymMQ248p4lf8GbaFRcLsqOXHFdUhhM0Hcy1NudvnpwHcfbDf7Nh9pIm1TA==}
     engines: {node: '>= 14.6.0', npm: '>= 6.0.0', pnpm: '>= 7.0.0'}
-    dev: true
+    dev: false
 
   /eslint-import-resolver-node/0.3.6:
     resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
