@@ -8,6 +8,7 @@ module.exports = defineConfig({
   ],
   rules: {
     '@typescript-eslint/consistent-type-imports': 'error',
+    'no-use-before-define': 'off',
   },
   overrides: [
     {
